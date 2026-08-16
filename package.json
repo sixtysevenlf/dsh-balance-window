@@ -1,0 +1,21 @@
+{
+  "name": "dsh-balance-window",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "dsh 左下角余额悬浮窗：实时显示 DeepSeek 余额与预计剩余 token，可拖动、自动刷新",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-layout"
+      ],
+      "platform": "web"
+    }
+  }
+}
