@@ -1,0 +1,6 @@
+# 注册配置示例：把下面这段加到 $DSH_HOME/profiles/web/cordis.patch.yml
+# （或 $DSH_HOME/cordis.patch.yml，优先级更高）
+
+- insert:
+    - id: balance-window
+      name: 'dsh-balance-window'
