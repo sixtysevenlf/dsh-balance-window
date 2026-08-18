@@ -1,0 +1,5 @@
+# dsh-balance-window bundle 层：插入插件行（恢复 profile 装配用）。
+- insert:
+    - id: balance-window
+      name: 'dsh-balance-window'
+      config: {}
